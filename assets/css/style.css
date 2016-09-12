@@ -1,0 +1,231 @@
+body {
+	background: #eee;
+	margin: 0px;
+	font-family: lato, sans-serif;
+	color: #777;
+}
+
+h1.Title {
+	font-family: lato, sans-serif;
+	font-size: 35px;
+    font-weight: 300;
+    color: #CCDB38;
+    text-decoration:none;
+
+}
+
+h3.Title {
+	font-family: lato, sans-serif;
+	font-size: 25px;
+    font-weight: 300;
+    color: #CCDB38;
+    text-decoration:none;
+    margin-bottom: 5px;
+}
+
+a.Navigation {
+	font-family: lato, sans-serif;
+	font-size: 20px;
+    font-weight: 300;
+    padding: 10px;
+    color: #777;
+    text-decoration:none;
+}
+
+a.Navigation:hover {
+	font-family: lato, sans-serif;
+	font-size: 20px;
+    font-weight: 300;
+    padding: 10px;
+    color: #CCDB38;
+}
+
+a.Logo {
+    font-family: lato, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px;
+    color: #CCDB38;
+    text-decoration:none;
+}
+
+div.ContainerTop {
+    width: 995px;
+    height: 80px;
+    background: #fff;
+    margin: 0px auto;
+    padding: 10px;
+    padding-left: 25px;
+    border-right: 1px #bbb solid;
+    border-left: 1px #bbb solid;
+    border-bottom: 1px #bbb solid;
+    box-shadow: 0px 0px 10px 0px #ccc;
+}
+div.ContainerMidden {
+	width: 1024px;
+	height: 460px;
+	background: #fff;
+	margin: 60px auto;
+	border: 1px #bbb solid;
+	box-shadow: 0px 0px 10px 0px #ccc;
+}
+
+div.ContainerMidden2 {
+	width: 1024px;
+	height: 1550px;
+	background: #fff;
+	margin: 60px auto;
+	border: 1px #bbb solid;
+	box-shadow: 0px 0px 10px 0px #ccc;
+}
+
+div.NavigationLeft {
+    width: 300px;
+    height: 20px;
+    padding: 25px 20px;
+    float: left;
+}
+
+div.NavigationRight {
+	width: 265px;
+	height: 20px;
+	padding: 25px 20px;
+	float: right;
+}
+
+div.PictureCenter {
+    background: url(../images/foto1.JPG) no-repeat;
+    background-size: 525px 200px;
+    width: 775px;
+    height: 200px;
+    float: right;
+    margin-top: 35px;
+/*     border: 1px solid red; */
+}
+div.PictureCenterText { 
+    width: 795px;
+    height: 40px;
+    float: right;
+/*    border: 1px solid red;*/
+    padding-bottom: 10px;
+    margin-top: 20px;
+
+}
+
+div.PictureCenterText2 { 
+    width: 974px;
+    height: 40px;
+    float: right;
+/*    border: 1px solid red;*/
+    padding-bottom: 10px;
+    margin-top: 20px;
+    padding-left: 48px;
+    font-family: lato, sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+div.Title { 
+    width: 840px;
+    height: 40px;
+    float: right;
+/*    border: 1px solid red;*/
+    padding-bottom: 10px;
+    margin-top: 20px;
+    padding-left: 182px;
+    font-family: lato, sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    color: #CCDB38;
+    text-decoration: none;
+}
+
+div.Content {
+	width: 600px;
+	height: 338px;
+	padding: 30px;
+	float: left;
+}
+div.Content2 {
+    width: 964px;
+    height: 338px;
+    padding: 30px;
+    float: left;
+}
+
+div.Picture {
+	margin: 65px;
+	padding: 30px;
+    background: url('../images/tim.jpeg') no-repeat;	
+    background-size: 150px 200px;
+    width: 170px;
+    height: 200px;
+    float: right;
+    transform: rotate(20deg);
+}
+span.Hoofdgerecht {
+    background: url('../images/Hoofdgerecht.png') no-repeat;
+    background-size: 40px 40px;
+    height: 40px;
+    float: left;
+    margin-left: 40px;
+    padding-left: 50px;
+    line-height: 40px;
+}
+
+span.Clock {
+    background: url('../images/clock.png') no-repeat;
+    background-size: 40px 40px;
+    height: 40px;
+    margin-left: 40px;
+    float: left;
+    padding-left: 50px;
+    line-height: 40px;
+}
+
+span.Person {
+    background: url('../images/Person.png') no-repeat;
+    background-size: 40px 40px;
+    height: 40px;
+    margin-left: 30px;
+    float: left;
+    padding-left: 40px;
+    line-height: 40px;
+}
+
+div.ImagesHolder {
+    width: 800px;
+    height: 150px;
+}
+
+span.Work {
+    background: url('../images/work.jpg') no-repeat;
+    background-size: 200px 150px;
+    height: 150px;
+    width: 200px;
+    float: left;
+    border: solid 1p blue;
+}
+
+span.Work2 {
+    background: url('../images/work2.jpg') no-repeat;
+    background-size: 200px 150px;
+    height: 150px;
+    width: 200px;
+    float: left;
+}
+
+span.Work3 {
+    background: url('../images/work3.jpg') no-repeat;
+    background-size: 200px 150px;
+    height: 150px;
+    width: 200px;
+    float: left;
+}
+span.Work4 {
+    background: url('../images/work4.jpg') no-repeat;
+    background-size: 200px 150px;
+    height: 150px;
+    width: 200px;
+    float: left;
+}
